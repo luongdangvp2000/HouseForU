@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/houseforu/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/houseforu/static/js/main.64403262.chunk.js",
+    "main.js.map": "/houseforu/static/js/main.64403262.chunk.js.map",
+    "runtime-main.js": "/houseforu/static/js/runtime-main.98fa3c65.js",
+    "runtime-main.js.map": "/houseforu/static/js/runtime-main.98fa3c65.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/houseforu/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.7164c3f6.chunk.js": "/houseforu/static/js/2.7164c3f6.chunk.js",
+    "static/js/2.7164c3f6.chunk.js.map": "/houseforu/static/js/2.7164c3f6.chunk.js.map",
+    "index.html": "/houseforu/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/houseforu/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/houseforu/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7164c3f6.chunk.js.LICENSE.txt": "/houseforu/static/js/2.7164c3f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98fa3c65.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.7164c3f6.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.64403262.chunk.js"
+  ]
+}
