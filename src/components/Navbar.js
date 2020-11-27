@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react'
 import {Button, Modal} from 'react-bootstrap'
+import { Col, Row, Form } from "react-bootstrap";
 
 
 
@@ -7,6 +8,7 @@ import {Button, Modal} from 'react-bootstrap'
 function Navbar() {
   const [loginShow, setLoginShow] = useState(false);
   const [signupShow, setSignupShow] = useState(false);
+  
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,8 +47,8 @@ function Navbar() {
                 <input type="password" class="form-control" id="password-login" />
               </div>
             </Modal.Body>
-            <Modal.Footer>
-              <div className="text-center"><button type="button" className="btn btn-success btn-block">Login</button></div>
+            <Modal.Footer >
+              <Col xs={4} md={8}><button type="submit" className="btn btn-success btn-lg text-center">Login</button></Col>
             </Modal.Footer>
           </Modal>
 
@@ -78,14 +80,14 @@ function Navbar() {
               </div>
             </Modal.Body>
             <Modal.Footer>
-              <div><Button className="btn btn-success">Sign Up</Button></div>
+              <Col xs={4} md={8}><div><Button className="btn btn-success btn-lg">Sign Up</Button></div></Col> 
             </Modal.Footer>
           </Modal>
         </ul>
 
         <form className="form-inline my-2 my-lg-0">
           <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button className="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
     </nav >
