@@ -14,7 +14,6 @@ code {
 
 .body-page{
   width: 100%; 
-  background: url(./images/background-body.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
