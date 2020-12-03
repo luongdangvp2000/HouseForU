@@ -5,17 +5,16 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import './NavigationBar.css'
 
-
 function NavigationBar() {
   const [loginShow, setLoginShow] = useState(false);
   const [signupShow, setSignupShow] = useState(false);
 
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
-      <Navbar.Brand className="col-9" href="#">House For U <i className="fas fa-home"></i></Navbar.Brand>
+      <Navbar.Brand className="col-8" href="#">House For U <i className="fas fa-home"></i></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-      <Navbar.Collapse id="responsive-navbar-nav" className="col-3" xs="auto" md="auto">
+      <Navbar.Collapse id="responsive-navbar-nav" className="col-4" xs="auto" md="auto">
         <Nav className="mr-auto">
           <button className="btn btn-light"><Nav.Link className="nav-link" href="#">Home</Nav.Link></button>
           <button className="btn btn-light"><a className="nav-link" href="#">About us</a></button>

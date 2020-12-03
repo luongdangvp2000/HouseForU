@@ -8,8 +8,8 @@ function HeroSection() {
             <div className="hero-child">
                 <h1 className="introduce">Welcome</h1>
                 <p className="introduce">Let's rent a house for you</p>
-                <form className="form-inline my-2 my-lg-0" id="search-bar">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <form className="form-inline my-2 my-lg-0 text-center" id="search-bar">
+                    <input className="form-control mr-sm-2" type="search" placeholder="Search you address" aria-label="Search" />
                     <button className="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
