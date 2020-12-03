@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar'
+import NavigationBar from './components/NavigationBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <NavigationBar />
         <Switch>
           <Route path='/' extact component={Home} />
         </Switch>
