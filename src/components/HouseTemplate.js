@@ -11,7 +11,7 @@ function HouseTemplate() {
         <>
             <h1>House Template</h1>
             <div>
-                <Image src={apartment} thumbnail/>
+                <Image src={apartment} thumbnail />
             </div>
         </>
     );

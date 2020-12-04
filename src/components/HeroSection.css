@@ -17,6 +17,7 @@ img {
     align-items: center;
     box-shadow: insert 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    position: relative;
 }
 
 .hero-child{
